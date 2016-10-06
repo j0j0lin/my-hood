@@ -10,6 +10,8 @@
 		FA1393FE1DA6005F004B80D5 /* my-hood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA1393FC1DA6005F004B80D5 /* my-hood.xcdatamodeld */; };
 		FA1394041DA60712004B80D5 /* MyHood+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1394021DA60712004B80D5 /* MyHood+CoreDataClass.swift */; };
 		FA1394051DA60712004B80D5 /* MyHood+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1394031DA60712004B80D5 /* MyHood+CoreDataProperties.swift */; };
+		FA1394081DA60A8F004B80D5 /* MyHood+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1394061DA60A8F004B80D5 /* MyHood+CoreDataClass.swift */; };
+		FA1394091DA60A8F004B80D5 /* MyHood+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1394071DA60A8F004B80D5 /* MyHood+CoreDataProperties.swift */; };
 		FA15D3231DA1AD1C00BE453C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA15D3221DA1AD1C00BE453C /* DataService.swift */; };
 		FA1FA8931D9F3367005E2AF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1FA8921D9F3367005E2AF8 /* AppDelegate.swift */; };
 		FA1FA8951D9F3367005E2AF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1FA8941D9F3367005E2AF8 /* ViewController.swift */; };
@@ -25,6 +27,8 @@
 		FA1393FD1DA6005F004B80D5 /* my-hood.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "my-hood.xcdatamodel"; sourceTree = "<group>"; };
 		FA1394021DA60712004B80D5 /* MyHood+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MyHood+CoreDataClass.swift"; path = "../MyHood+CoreDataClass.swift"; sourceTree = "<group>"; };
 		FA1394031DA60712004B80D5 /* MyHood+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MyHood+CoreDataProperties.swift"; path = "../MyHood+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FA1394061DA60A8F004B80D5 /* MyHood+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MyHood+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FA1394071DA60A8F004B80D5 /* MyHood+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MyHood+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		FA15D3221DA1AD1C00BE453C /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		FA1FA88F1D9F3367005E2AF8 /* example-my-hood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "example-my-hood.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA1FA8921D9F3367005E2AF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +95,8 @@
 		FA1FA8A41D9F3391005E2AF8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FA1394061DA60A8F004B80D5 /* MyHood+CoreDataClass.swift */,
+				FA1394071DA60A8F004B80D5 /* MyHood+CoreDataProperties.swift */,
 				FA1394021DA60712004B80D5 /* MyHood+CoreDataClass.swift */,
 				FA1394031DA60712004B80D5 /* MyHood+CoreDataProperties.swift */,
 				FA1FA8A51D9F33A9005E2AF8 /* Post.swift */,
@@ -190,11 +196,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA1FA8A61D9F33A9005E2AF8 /* Post.swift in Sources */,
+				FA1394081DA60A8F004B80D5 /* MyHood+CoreDataClass.swift in Sources */,
 				FA1394041DA60712004B80D5 /* MyHood+CoreDataClass.swift in Sources */,
 				FA1394051DA60712004B80D5 /* MyHood+CoreDataProperties.swift in Sources */,
 				FA1FA8951D9F3367005E2AF8 /* ViewController.swift in Sources */,
 				FA1FA8AC1D9F895B005E2AF8 /* AddPostVC.swift in Sources */,
 				FA1393FE1DA6005F004B80D5 /* my-hood.xcdatamodeld in Sources */,
+				FA1394091DA60A8F004B80D5 /* MyHood+CoreDataProperties.swift in Sources */,
 				FA15D3231DA1AD1C00BE453C /* DataService.swift in Sources */,
 				FA1FA8931D9F3367005E2AF8 /* AppDelegate.swift in Sources */,
 				FA1FA8A91D9F511D005E2AF8 /* PostCell.swift in Sources */,
