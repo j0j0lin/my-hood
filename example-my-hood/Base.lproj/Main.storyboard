@@ -87,7 +87,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="aEV-1v-Z3q">
                         <barButtonItem key="backBarButtonItem" title="Cancel" id="v2G-V0-uB5"/>
-                        <barButtonItem key="rightBarButtonItem" image="photo-camera" style="plain" id="u4p-c5-Rzy">
+                        <barButtonItem key="rightBarButtonItem" image="photo-camera" id="u4p-c5-Rzy">
                             <connections>
                                 <segue destination="UdD-Ef-dcf" kind="show" identifier="AddPostVC" id="DeC-9Y-OzP"/>
                             </connections>
